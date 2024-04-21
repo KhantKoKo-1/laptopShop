@@ -1,0 +1,49 @@
+
+.toggle-password {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 18px;
+    cursor: pointer;
+}
+
+
+footer{
+    color: #000;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 13%;
+    text-align: center;
+}
+
+.bs-icon {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.center{
+    text-align: center;
+}
+
+.scoll {
+    overflow-y: auto;
+    max-height: 70vh;
+}
+
+.quantity{
+    min-width: 18px;
+    display: inline-block;
+}
+
+#text-container {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 20px;
+}
+
+#cart{
+    color:red;
+    font-size:small;
+    margin-left:2px;
+}
